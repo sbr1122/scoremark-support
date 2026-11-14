@@ -3,7 +3,8 @@
 アプリ「SCOREMARK」（野球スコアブック）のトップ・サポート・プライバシーポリシーのページです。
 ほかのアプリと同じく、GitHub Pages で公開する（このフォルダの中身を公開用のリポジトリに置く）。
 公開先：リポジトリ sbr1122/scoremark-support（main・/ (root)）、https://sbr1122.github.io/scoremark-support/（2026-11-12 公開）。
-更新するときは、公開用のリポジトリを clone してこのフォルダの中身で置き換え、ページで使っていない画像は入れない。
+更新するときは `bash PublicSite/publish.sh "コミットの文"`（公開用のリポジトリを clone し、ページ・スタイルと、ページが使っている画像だけを入れて push する）。
+`--dry-run` を付けると、何が変わるかだけを見られる。
 
 - トップ：index.html
 - サポート：support.html

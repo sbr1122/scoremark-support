@@ -219,7 +219,7 @@ footer {
 .paper-inner { max-width: 1040px; margin: 0 auto; }
 .paper-band .eyebrow { color: #FFFFFF; opacity: 1; }
 .paper-band .section-title { font-size: 32px; margin-bottom: 12px; }
-.paper-band .section-title span { display: inline-block; }
+.section-title span { display: inline-block; }
 .paper-lead { max-width: 40em; margin: 0 0 32px; font-size: 17px; }
 .paper-sheet {
   margin: 0;
@@ -306,6 +306,26 @@ section { margin: 0 0 88px; }
 .steps p { margin: 8px 0 0; }
 @media (min-width: 760px) {
   .steps { grid-template-columns: repeat(3, 1fr); gap: 32px; }
+}
+
+/* チームの 1 年（大会・トレーニングなど）：スマホでは 1 列、広い画面では 4 列 */
+.cards {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 32px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+}
+.cards .phone { max-width: 200px; }
+.cards h3 { margin: 16px 0 0; font-size: 18px; }
+.cards p { margin: 6px 0 0; color: var(--sub); font-size: 15px; }
+@media (min-width: 560px) {
+  .cards { grid-template-columns: 1fr 1fr; gap: 40px 24px; }
+}
+@media (min-width: 960px) {
+  .cards { grid-template-columns: repeat(4, 1fr); }
+  .cards .phone { max-width: 210px; }
 }
 
 .feature {
