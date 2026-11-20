@@ -9,6 +9,7 @@
 - トップ：index.html
 - サポート：support.html
 - プライバシーポリシー：privacy.html
+- 利用規約：terms.html（プランと料金の画面から開く。2026-11-21 公開）
 
 画面の写真（images/）は iPhone 17 Pro Max・iPad Pro 11 インチのシミュレータで確認用の起動口（tool/preview_main.dart）を開いて撮ったもの。paper.jpg は iPad を縦にして「紙のスコアブック」の画面を撮り、紙の部分だけを切り出したもの。
 アプリの見た目が変わったら撮り直す。
